@@ -1,0 +1,18 @@
+CONTROLE A RECEBER — PACOTE WEB INSTALÁVEL (PWA)
+
+Este pacote é preparado para publicar em hospedagem estática HTTPS usando apenas o celular. Não é APK.
+
+ARQUIVOS: index.html, manifest.json, sw.js e ícones.
+
+COMO INSTALAR (visão geral):
+1. Publique TODOS os arquivos deste ZIP em uma hospedagem estática HTTPS que sirva index.html na raiz (por exemplo, GitHub Pages).
+2. Abra o endereço HTTPS publicado no Chrome do Android.
+3. Menu ⋮ > Instalar app ou Adicionar à tela inicial.
+4. Abra o app instalado > Configurações e backup > Importar backup e selecione o JSON existente.
+5. Confira clientes, telefones, valores, vencimentos e histórico antes de continuar usando a nova versão.
+
+DADOS: o armazenamento desta versão será separado do HTML aberto na pasta Downloads. Importe o JSON para migrar. Mantenha o arquivo antigo e o backup até verificar tudo.
+
+ALERTAS: esta versão web não oferece alarmes locais Android confiáveis quando o app está fechado. A permissão de notificações pode permitir avisos do navegador, mas não substitui alarmes nativos programados. Para alertas confiáveis em segundo plano é necessário um app Android nativo.
+
+PRIVACIDADE: os dados dos clientes ficam no armazenamento local do navegador após a instalação; não há banco de dados de servidor neste pacote. A hospedagem distribui os arquivos do aplicativo, não seus cadastros. Faça backups regularmente.
